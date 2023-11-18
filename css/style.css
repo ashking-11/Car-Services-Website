@@ -1,0 +1,674 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* ===========================
+     Backgroun part start
+================================ */
+
+#bgImg{
+    width: auto;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/bgImg.png);
+}
+
+#bgImg .image-overlay{
+    width: auto;
+    height: 600px;
+    background-color: rgba(27, 20, 99, .7);
+}
+
+/* ===========================
+    Backgroun part end
+================================ */
+
+/* ===========================
+     Navbar & Sign-In button part Start
+================================ */
+
+nav{
+    background: rgba(217, 217, 217, 0.27);
+}
+
+nav ul li a{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    color: #fff !important;
+    word-spacing: 3px !important;
+    margin-left: 25px;
+}
+
+nav ul li .button {
+	font-family: 'Lato', sans-serif;
+	padding: 8px 20px !important;
+	text-align: center;
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+	margin-top: 0;
+}
+/* ===========================
+    Navbar & Sign-In button part end
+================================ */
+
+/* ===========================
+    Banner part start
+================================ */
+
+#banner-part h1 {
+	width: 845px;
+	font-family: 'Lato', sans-serif;
+	font-size: 75px;
+	font-weight: 600;
+	color: #ffffff;
+	line-height: 115%;
+	margin-top: 70px; 
+}
+
+#banner-part h2 {
+	width: 845px;
+	font-family: 'Lato', sans-serif;
+	font-size: 41px;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+#banner-part p {
+	width: 845px;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #ffffff;
+    word-spacing: 3px;
+}
+
+#banner-part .search {
+	width: 690px;
+	position: relative;
+	background: rgba(246, 245, 255, .17);
+	padding: 15px 15px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+
+#banner-part .search input {
+	background: transparent;
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 15px;
+	padding: 15px 60px;
+}
+
+#banner-part .search .input-2 {
+	margin-left: 40px;
+}
+
+#banner-part .search img {
+	position: absolute;
+	top: 50%;
+	left: 35px;
+	transform: translateY(-50%);
+}
+
+#banner-part .search .vector {
+	position: absolute;
+    font-size: 40px;
+	top: 50%;
+	left: 390px;
+	transform: translateY(-50%);
+}
+
+#banner-part .search input::placeholder {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	color: rgba(255, 255, 255, 0.7);
+	word-spacing: 3px;
+}
+
+#banner-part .box {
+	margin-top: 70px;
+	width: 425px;
+	height: 360px;
+}
+
+#banner-part .box img{
+    height: 100%;
+    width: 100%;
+}
+
+/* ===========================
+    Banner part end
+================================ */
+
+/* ===========================
+    Work-section part start
+================================ */
+
+#work-section{
+    width: auto;
+    height: 640px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../images/bgImg2.jpg);
+}
+
+#work-section .image-overlay{
+    width: auto;
+    height: 640px;
+    background-color: rgba(34, 39, 58, .8);
+}
+
+#work-section .amni {
+	display: inline-block;
+	margin-top: 15px;
+	padding-left: 95px;
+}
+
+#work-section .bg-color {
+	width: 245px;
+	height: 120px;
+	display: flex;
+	background: rgba(227, 227, 227, .5);
+	border-radius: 10px;
+	cursor: pointer;
+	padding: 28px 16px;
+}
+
+#work-section .bg-color img {
+	height: 60px;
+	width: auto;
+}
+
+#work-section .bg-color h4 {
+	width: 245px;
+	height: 90px;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: #ffffff;
+	padding: 0px 20px;
+	margin: 0px 0px;
+}
+
+#work-section .text{
+	position: relative;
+}
+
+#work-section .text h4{
+	margin: 50px auto 120px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 21px;
+	font-weight: 400;
+	color: #ffffff;
+}
+
+#work-section .text h4::after {
+	position: absolute;
+	bottom: -12px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 210px;
+	height: 2px;
+	background: #ffffff;
+	content: "";
+	border-radius: 5px;
+}
+
+#work-section .three-section .img-text img{
+	width: 120px;
+	height: 85px;
+	margin: 0px 65px 20px;
+}
+
+#work-section .three-section .img-text h3 {
+	font-family: 'Lato', sans-serif;
+	font-size: 21px;
+	font-weight: 700;
+	color: #fff;
+	margin: 0px 15px;
+}
+
+#work-section .downloadBar {
+	position: relative;
+	margin: 45px auto;
+	text-align: center;
+}
+
+#work-section .downloadBar input {
+	background: transparent;
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	padding: 15px 35px;
+}
+
+#work-section .downloadBar input::placeholder {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: #ffffff;
+	word-spacing: 3px;
+}
+
+#work-section .downloadBar img {
+	position: absolute;
+	top: 50%;
+	left: 1027px;
+	transform: translateY(-50%);
+}
+
+/* ===========================
+    Work-section part end
+================================ */
+
+
+/* ===========================
+    Table part start
+================================ */
+
+#table-form{
+	height: 200px;
+	width: 100%;
+	background: #23283B;
+}
+
+#table-form .text-searchBox p{
+	font-family: 'Lato', sans-serif;
+	font-size: 21px;
+	font-weight: 400;
+	color: #ffffff;
+	word-spacing: 3px;
+	padding-top: 35px;
+}
+
+#table-form .text-searchBox {
+	position: relative;
+}
+
+#table-form .text-searchBox input {
+	background: transparent;
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	padding: 6px 90px;
+}
+
+#table-form .text-searchBox span{
+	font-family: 'Lato', sans-serif;
+	font-size: 21px;
+	font-weight: 400;
+	color: #ffffff;
+	margin-left: -355px;
+}
+
+#table-form .text-searchBox input::placeholder {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: #ffffff;
+	word-spacing: 3px;
+}
+
+#table-form .text-searchBox img {
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	top: 85%;
+	left: 333px;
+	transform: translateY(-50%);
+}
+
+/* ===========================
+    Table part end
+================================ */
+
+/* ===========================
+   Testimonial part start
+================================ */
+
+#testimoniala{
+	height: 710px;
+	width: 100%;
+	background: #23283B;
+}
+
+#testimoniala .heading{
+	position: relative;
+}
+
+#testimoniala .heading h1{
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 42;
+	font-weight: 500;
+	color: #ffffff;
+	margin-bottom: 60px;
+}
+
+#testimoniala .heading h1::after {
+	position: absolute;
+	bottom: -12px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 590px;
+	height: 2px;
+	background: #ffffff;
+	content: "";
+	border-radius: 5px;
+}
+
+#testimoniala .card .card-body .card-title {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+	font-weight: 500;
+	color: #545454;
+}
+
+#testimoniala .card .card-body .tag-text {
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 10px;
+	font-weight: 400;
+	color: #9a9a9a;
+}
+
+#testimoniala .card .card-body .card-text span {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #000000;
+}
+
+#testimoniala .card .btn{
+	float: right;
+	color: #0d6efd;
+}
+
+/* ===========================
+    Testimonial part end
+================================ */
+
+/* =================================
+    Mechanic & Search bar part start
+================================ */
+
+#heading-searchBar {
+	text-align: center;
+	height: 290px;
+	width: 100%;
+	background: #23283B;
+}
+
+#heading-searchBar .heading{
+	position: relative;
+}
+
+#heading-searchBar .heading h1{
+	font-family: 'Lato', sans-serif;
+	font-size: 42;
+	font-weight: 500;
+	color: #ffffff;
+}
+
+#heading-searchBar .heading h1::after {
+	position: absolute;
+	bottom: -12px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 590px;
+	height: 2px;
+	background: #ffffff;
+	content: "";
+	border-radius: 5px;
+}
+
+#heading-searchBar .text-Boxes p{
+	font-family: 'Lato', sans-serif;
+	font-size: 21px;
+	font-weight: 400;
+	color: #ffffff;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+#heading-searchBar .text-Boxes .search {
+	position: relative;
+    /* margin-bottom: 70px; */
+}
+
+#heading-searchBar .text-Boxes .search input {
+	width: 620px;
+	background: transparent;
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 15px;
+	padding: 15px 60px;
+}
+
+#heading-searchBar .text-Boxes .search .input-2 {
+	margin-left: 40px;
+}
+
+#heading-searchBar .text-Boxes .search input::placeholder {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: rgb(255, 255, 255) !important;
+	word-spacing: 3px;
+}
+
+#heading-searchBar .text-Boxes .search img {
+	position: absolute;
+	top: 50%;
+	left: 2%;
+	transform: translateY(-50%);
+}
+
+#heading-searchBar .text-Boxes .search .vector {
+	position: absolute;
+    font-size: 40px;
+	top: 50%;
+	left: 53%;
+	transform: translateY(-50%);
+}
+
+/* =================================
+    Mechanic & Search bar part start
+================================ */
+
+/* =================================
+   Price Section part start
+================================ */
+#price-section{
+	text-align: center;
+	height: 240px;
+	width: 100%;
+	background: #23283B;
+}
+
+#price-section .price-Boxes p{
+	font-family: 'Lato', sans-serif;
+	font-size: 21px;
+	font-weight: 400;
+	color: #ffffff;
+	margin-bottom: 25px;
+}
+
+#price-section .price-Boxes a{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: #ffffff;
+	padding: 15px 60px;
+	background: #0d6efd;
+	border-radius: 10px;
+	margin-bottom: 25px;
+	word-spacing: 2px;
+}
+
+#price-section .bullet-points ul {
+	display: flex;
+	justify-content: center;
+	padding-inline-start: 0;
+}
+
+#price-section .bullet-points ul li {
+	margin: 0px 11px;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #ffffff;
+}
+
+/* =================================
+    Price Section part end
+================================ */
+
+/* =================================
+    Footer part start
+================================ */
+
+footer{
+	width: 100%;
+	height: 440px;
+	background: #222229;
+}
+
+footer img{
+	margin-top: 20px;
+	margin-left: 15px;
+}
+footer .footer-text{
+	font-family: 'Lato', sans-serif;
+	font-size: 10px;
+	font-weight: 400;
+	color: #ffffff;
+	margin-top: 10px;
+}
+
+footer ul{
+	display: flex;
+	list-style: none;
+	padding-inline-start: 0;
+}
+
+footer ul li a{
+	margin-right: 20px;
+	font-size: 30px;
+	color: #ffffff;
+}
+
+footer h1{
+	text-align: center;
+	margin-top: 45px;
+	font-family: 'Lato', sans-serif;
+	font-size: 27px;
+	font-weight: 600;
+	color: #ffffff;
+}
+
+footer .footer-lists{
+	margin-left: 36px;
+}
+
+footer .footer-lists ul{
+	margin-top: 30px;
+	display: block;
+	list-style: none;
+	padding-inline-start: 0;
+}
+
+footer .footer-lists ul li {
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #ffffff;
+	padding: 4px 0px;
+}
+
+footer .footer-links{
+	margin-left: 113px;
+}
+
+footer .footer-links ul{
+	margin-top: 30px;
+	display: block;
+	list-style: none;
+	padding-inline-start: 0;
+}
+
+footer .footer-links ul li{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: #ffffff;
+	padding: 4px 0px;
+}
+
+footer .footer-links ul li i{
+	margin-right: 15px;
+}
+
+footer .mail-Box{
+	margin-top: 30px;
+	margin-left: 87px;
+}
+
+footer .mail-Box input{
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	padding: 12px 90px 12px 17px;
+	margin-bottom: 15px;
+}
+
+footer .mail-Box input::placeholder {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: rgb(0, 0, 0) !important;
+	word-spacing: 3px;
+}
+
+footer .mail-Box a{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: #ffffff;
+	padding: 15px 65px;
+	background: #0d6efd;
+	border-radius: 10px;
+	margin-bottom: 25px;
+	word-spacing: 2px;
+}
+
+footer .copyright{
+	text-align: center;
+	margin-top: 60px;
+}
+
+footer .copyright p{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #ffffff;
+	word-spacing: 3px;
+}
+
+/* =================================
+    Footer part end
+================================ */
+
+
+
